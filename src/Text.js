@@ -4,7 +4,7 @@ import { polyInOut } from './utils'
 import { useSpring, animated } from 'react-spring/three'
 const typeface = require('./helvetiker_bold.typeface.json')
 
-export default function Text(props) {
+export default function Text() {
   const [font, setFont] = useState(null)
 
   const { position } = useSpring({
@@ -30,7 +30,7 @@ export default function Text(props) {
       <textGeometry
         attach="geometry"
         args={[
-          props.text,
+          'WOW',
           {
             font: font,
             size: 0.8,

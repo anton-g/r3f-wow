@@ -31,23 +31,8 @@ export default function App() {
       <BlueSphere />
       <Icosahedron />
       <PurpleIcosahedron />
-      <Octahedron
-        position={[-0.1, -1.2, -2]}
-        rotation={[0, 0.5, 1.2]}
-        color="hsl(190, 100%, 70%)"
-        args={[0.3, 0]}
-      />
-      <Text
-        text="WOW"
-        size={80}
-        height={5}
-        curveSegments={12}
-        bevelEnabled={true}
-        bevelThickness={10}
-        bevelSize={8}
-        bevelOffset={0}
-        bevelSegments={5}
-      />
+      <Octahedron />
+      <Text />
       <Cylinder />
       <GreenPipe />
       <RedPipe />
