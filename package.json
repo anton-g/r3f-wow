@@ -8,7 +8,7 @@
     "drei": "0.0.54",
     "react": "16.12.0",
     "react-dom": "16.12.0",
-    "react-scripts": "3.0.1",
+    "react-scripts": "5.0.1",
     "react-spring": "9.0.0-rc.3",
     "react-three-fiber": "4.2.5",
     "three": "0.116.1"
